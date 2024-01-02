@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make A Gussing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="card">
+      <h2 class="card_title">Gussing Game</h2>
+      <div class="card_body">
+        <form>
+          <div class="top_body">
+            <label for="input_section">Guss a number betwen 1 to 5 :</label>
+            <input type="number" minlength="1" max="5" required placeholder="Enter Number 1 to 5" id="input_section">
+          </div>
+          <div class="btn">
+            <button id="btn_id" type="submit">Check Result</button>
+          </div>
+        </form>
+        <p class="wonMassage"></p>
+        <p class="reamain_attempt"></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./scipt.js"></script>
+</body>
+
+</html>
